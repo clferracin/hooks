@@ -14,3 +14,15 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.countSection {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row-reverse;
+  justify-content: start;
+  margin: 2rem;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
